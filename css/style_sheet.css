@@ -12,12 +12,12 @@ body{
     padding: 0;
 
     /* Ajustes irrelevantes */
-    color: white;
+    color: black;
     text-align: center;
     font-size: 18;
     font-weight: bold;
 
-    background: #33F9FF;
+    background:white;
 }
 
 /******************************************************************
@@ -35,7 +35,7 @@ body{
 */
 #wrapper header, #wrapper footer{
     height: 9.5%;
-    background: #066A44;
+    background: #B0C3C8;
     padding-top: 0.5%;
 }
 
@@ -54,7 +54,7 @@ body{
 #central nav{
     padding: 10px;
     height: 100%;
-    background: #CA4712;
+    background: #AFB0AF;
 
     order: 1;
     flex: 1 1 auto;
@@ -64,7 +64,7 @@ body{
 #central section{
     height: 100%;
     margin: 0 0.5%;
-    background: #CA4712;
+    background: #456169;
     padding: 0.5%;
 
     order: 2;
@@ -79,7 +79,7 @@ body{
     height: 100%;
     order: 3;
     flex: 1 1 auto;
-    background: #CA4712;
+    background: #AFB0AF;
 }
 
 /******************************************************************
@@ -87,8 +87,8 @@ body{
 ******************************************************************/
 
 #central section>header{
-    background: #1390DC;
-    border: 3px solid #33F9FF;
+    background: #456169;
+    border: 3px solid white;
 
     height: 14%;
     padding: 1%;
@@ -96,8 +96,8 @@ body{
 }
 
 #central section>article{
-    background: #1390DC;
-    border: 3px solid #33F9FF;
+    background: #456169;
+    border: 3px solid white;
 
     height: 69%;
     margin: 0 0.5%;
@@ -105,8 +105,8 @@ body{
 }
 
 #central section>footer{
-    background: #1390DC;
-    border: 3px solid #33F9FF;
+    background: #456169;
+    border: 3px solid white;
 
     height: 14%;
     padding: 1%;
